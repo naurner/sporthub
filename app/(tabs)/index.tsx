@@ -68,13 +68,13 @@ const styles = StyleSheet.create({
   },
   greeting: {
     fontSize: 26,
-    fontFamily: 'DM_Sans_700Bold',
+    fontFamily: 'DMSans_700Bold',
     color: '#111111',
     marginBottom: 4,
   },
   subtitle: {
     fontSize: 14,
-    fontFamily: 'DM_Sans_400Regular',
+    fontFamily: 'DMSans_400Regular',
     color: '#6B6B6B',
     marginBottom: 16,
   },
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   emptyEmoji: { fontSize: 40 },
   emptyText: {
     fontSize: 15,
-    fontFamily: 'DM_Sans_400Regular',
+    fontFamily: 'DMSans_400Regular',
     color: '#6B6B6B',
   },
 });

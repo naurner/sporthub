@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
   avatarEmoji: { fontSize: 40 },
   name: {
     fontSize: 22,
-    fontFamily: 'DM_Sans_700Bold',
+    fontFamily: 'DMSans_700Bold',
     color: '#111111',
     marginBottom: 6,
   },
@@ -94,12 +94,12 @@ const styles = StyleSheet.create({
   star: { fontSize: 14 },
   rating: {
     fontSize: 15,
-    fontFamily: 'DM_Sans_700Bold',
+    fontFamily: 'DMSans_700Bold',
     color: '#111111',
   },
   ratingLabel: {
     fontSize: 14,
-    fontFamily: 'DM_Sans_400Regular',
+    fontFamily: 'DMSans_400Regular',
     color: '#6B6B6B',
   },
   statsRow: {
@@ -119,12 +119,12 @@ const styles = StyleSheet.create({
   },
   statValue: {
     fontSize: 24,
-    fontFamily: 'DM_Sans_700Bold',
+    fontFamily: 'DMSans_700Bold',
     color: '#111111',
   },
   statLabel: {
     fontSize: 12,
-    fontFamily: 'DM_Sans_400Regular',
+    fontFamily: 'DMSans_400Regular',
     color: '#6B6B6B',
   },
   statDivider: {
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
   },
   sectionTitle: {
     fontSize: 18,
-    fontFamily: 'DM_Sans_700Bold',
+    fontFamily: 'DMSans_700Bold',
     color: '#111111',
     marginBottom: 12,
   },
@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
   emptyEmoji: { fontSize: 40 },
   emptyText: {
     fontSize: 14,
-    fontFamily: 'DM_Sans_400Regular',
+    fontFamily: 'DMSans_400Regular',
     color: '#AAAAAA',
   },
 });

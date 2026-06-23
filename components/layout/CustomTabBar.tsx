@@ -1,8 +1,16 @@
 import React from 'react';
 import { View, TouchableOpacity, Text, StyleSheet, Platform } from 'react-native';
-import { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Home, MapPin, Plus, User } from 'lucide-react-native';
+
+interface TabBarProps {
+  state: {
+    index: number;
+    routes: Array<{ name: string; key: string }>;
+  };
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  navigation: any;
+}
 
 const TAB_CONFIG = [
   { name: 'index', label: 'Главная', Icon: Home },
@@ -11,13 +19,13 @@ const TAB_CONFIG = [
   { name: 'profile', label: 'Профиль', Icon: User },
 ];
 
-export function CustomTabBar({ state, navigation }: BottomTabBarProps) {
+export function CustomTabBar({ state, navigation }: TabBarProps) {
   const insets = useSafeAreaInsets();
 
   return (
     <View style={[styles.container, { paddingBottom: Math.max(insets.bottom, 12) }]}>
       {TAB_CONFIG.map((tab) => {
-        const routeIndex = state.routes.findIndex((r) => r.name === tab.name);
+        const routeIndex = state.routes.findIndex((r: { name: string }) => r.name === tab.name);
         const isFocused = state.index === routeIndex;
         const { Icon, isFab } = tab;
 
@@ -94,7 +102,7 @@ const styles = StyleSheet.create({
   },
   tabLabel: {
     fontSize: 10,
-    fontFamily: 'DM_Sans_500Medium',
+    fontFamily: 'DMSans_500Medium',
   },
   fabWrapper: {
     flex: 1,

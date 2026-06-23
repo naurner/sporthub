@@ -114,11 +114,11 @@ const styles = StyleSheet.create({
   },
   badgeText: {
     fontSize: 11,
-    fontFamily: 'DM_Sans_600SemiBold',
+    fontFamily: 'DMSans_600SemiBold',
   },
   title: {
     fontSize: 17,
-    fontFamily: 'DM_Sans_700Bold',
+    fontFamily: 'DMSans_700Bold',
     color: '#111111',
     marginBottom: 10,
     lineHeight: 23,
@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
   },
   infoText: {
     fontSize: 13,
-    fontFamily: 'DM_Sans_400Regular',
+    fontFamily: 'DMSans_400Regular',
     color: '#6B6B6B',
     flex: 1,
   },
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
   },
   price: {
     fontSize: 15,
-    fontFamily: 'DM_Sans_700Bold',
+    fontFamily: 'DMSans_700Bold',
     color: '#FF4F2B',
   },
 });

@@ -66,11 +66,11 @@ const styles = StyleSheet.create({
   emoji: { fontSize: 14 },
   label: {
     fontSize: 13,
-    fontFamily: 'DM_Sans_500Medium',
+    fontFamily: 'DMSans_500Medium',
     color: '#6B6B6B',
   },
   labelActive: {
     color: '#FF4F2B',
-    fontFamily: 'DM_Sans_600SemiBold',
+    fontFamily: 'DMSans_600SemiBold',
   },
 });

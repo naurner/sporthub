@@ -34,6 +34,6 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 12,
-    fontFamily: 'DM_Sans_600SemiBold',
+    fontFamily: 'DMSans_600SemiBold',
   },
 });

@@ -29,12 +29,12 @@ const styles = StyleSheet.create({
   mapEmoji: { fontSize: 48 },
   placeholderText: {
     fontSize: 16,
-    fontFamily: 'DM_Sans_600SemiBold',
+    fontFamily: 'DMSans_600SemiBold',
     color: '#111111',
   },
   placeholderSubtext: {
     fontSize: 13,
-    fontFamily: 'DM_Sans_400Regular',
+    fontFamily: 'DMSans_400Regular',
     color: '#6B6B6B',
   },
 });

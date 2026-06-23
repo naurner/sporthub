@@ -38,18 +38,18 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    fontFamily: 'DM_Sans_700Bold',
+    fontFamily: 'DMSans_700Bold',
     color: '#111111',
   },
   subtitle: {
     fontSize: 14,
-    fontFamily: 'DM_Sans_400Regular',
+    fontFamily: 'DMSans_400Regular',
     color: '#6B6B6B',
     marginTop: 2,
   },
   rightAction: {
     fontSize: 14,
-    fontFamily: 'DM_Sans_600SemiBold',
+    fontFamily: 'DMSans_600SemiBold',
     color: '#FF4F2B',
   },
 });

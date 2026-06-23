@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
   field: { marginBottom: 16 },
   label: {
     fontSize: 13,
-    fontFamily: 'DM_Sans_600SemiBold',
+    fontFamily: 'DMSans_600SemiBold',
     color: '#111111',
     marginBottom: 8,
   },
@@ -139,13 +139,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 14,
     paddingVertical: 12,
     fontSize: 15,
-    fontFamily: 'DM_Sans_400Regular',
+    fontFamily: 'DMSans_400Regular',
     color: '#111111',
     backgroundColor: '#FAFAF8',
   },
   hint: {
     fontSize: 12,
-    fontFamily: 'DM_Sans_400Regular',
+    fontFamily: 'DMSans_400Regular',
     color: '#6B6B6B',
     marginTop: 6,
   },
@@ -163,13 +163,13 @@ const styles = StyleSheet.create({
   },
   sportChipText: {
     fontSize: 13,
-    fontFamily: 'DM_Sans_500Medium',
+    fontFamily: 'DMSans_500Medium',
     color: '#111111',
   },
   submitSection: { marginTop: 8, gap: 10, alignItems: 'center' },
   comingSoon: {
     fontSize: 12,
-    fontFamily: 'DM_Sans_400Regular',
+    fontFamily: 'DMSans_400Regular',
     color: '#AAAAAA',
   },
 });
