@@ -1,15 +1,23 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
-
-# dependencies
+# ────────────────────────────────────────────
+# Dependencies
+# ────────────────────────────────────────────
 node_modules/
+.pnp
+.pnp.js
 
+# ────────────────────────────────────────────
 # Expo
+# ────────────────────────────────────────────
 .expo/
 dist/
 web-build/
 expo-env.d.ts
 
-# Native
+# ────────────────────────────────────────────
+# Native build output
+# ────────────────────────────────────────────
+/ios
+/android
 .kotlin/
 *.orig.*
 *.jks
@@ -18,25 +26,58 @@ expo-env.d.ts
 *.key
 *.mobileprovision
 
+# ────────────────────────────────────────────
 # Metro
+# ────────────────────────────────────────────
 .metro-health-check*
 
-# debug
+# ────────────────────────────────────────────
+# TypeScript
+# ────────────────────────────────────────────
+*.tsbuildinfo
+
+# ────────────────────────────────────────────
+# Environment variables
+# ────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ────────────────────────────────────────────
+# Debug logs
+# ────────────────────────────────────────────
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+*.log
 
-# macOS
+# ────────────────────────────────────────────
+# OS
+# ────────────────────────────────────────────
 .DS_Store
+Thumbs.db
 *.pem
 
-# local env files
-.env
-.env*.local
+# ────────────────────────────────────────────
+# Editor / IDE (keep local, out of repo)
+# ────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 
-# typescript
-*.tsbuildinfo
+# ────────────────────────────────────────────
+# AI assistant configs (local only)
+# ────────────────────────────────────────────
+.claude/
+CLAUDE.md
+AGENTS.md
 
-# generated native folders
-/ios
-/android
+# ────────────────────────────────────────────
+# Docs & markdown (managed separately)
+# ────────────────────────────────────────────
+docs/
+README.md
+*.md
